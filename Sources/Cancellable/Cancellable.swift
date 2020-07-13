@@ -1,3 +1,3 @@
-struct Cancellable {
-    var text = "Hello, World!"
+public protocol Cancellable {
+    func cancel()
 }
